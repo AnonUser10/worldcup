@@ -1,0 +1,91 @@
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-image: url('1-ezgif.com-webp-to-jpg-converter.jpg'); /* Add the URL of your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200vh;
+  }
+  label {
+    font-size: 16px;
+    color: #333; /* Dark gray text color */
+    font-family: Arial, sans-serif; /* Font family */
+    margin-bottom: 5px;
+    display: block;
+  }
+ /* Main container */
+ .container {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: rgba(80, 0, 0, 0.7); /* White background with transparency */
+    border: 2px solid rgba(255, 255, 255, 0.5); /* White border with transparency */
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Clear shadow */
+  }
+  
+  form {
+    background-color: rgba(255, 255, 255, 0.8); /* White background with transparency */
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+  /* CSS styles for the input fields */
+  input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #888; /* Slightly darker border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    background-color: #f5f5f5; /* Slightly darker background color */
+  }
+
+
+  
+  /* Header */
+  h2, p {
+    color: #ffffff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for better visibility */
+  }
+  
+
+  
+  /* Submit button */
+  input[type="text"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px;
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Font family */
+  }
+
+  /* CSS styles for the submit button */
+  input[type="submit"] {
+    background-color: #ff0000; /* Red color */
+    color: #fff; /* White text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: Arial, sans-serif; /* Font family */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #6a0000; /* Darker shade of red on hover */
+  }
+  
+  /* Error message */
+  .error {
+    color: #ff0000;
+  }
+  
+  /* Success message */
+  .success {
+    color: #00cc00;
+  }
+  
